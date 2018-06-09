@@ -12,7 +12,7 @@ Run `ng serve --open` to run the project and open in browser `http://localhost:4
 
 ## MOCK JSON DATA
 
-I heve created one JSON file inside `assets` folder and called it from service using `HTTP` request. Here i have provided three users bydefault. You can add more user in that json file once you have downloaded repo.
+I have created one JSON file inside `assets` folder and called it from service using `HTTP` request. Here i have provided three users bydefault. You can add more user in that json file once you have downloaded repo.
 
 ## Build
 
