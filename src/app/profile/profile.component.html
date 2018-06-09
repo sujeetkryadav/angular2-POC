@@ -1,0 +1,65 @@
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" style="left:25%;top:30px;" *ngIf="userDetail">
+    <div class="panel panel-info" style="border-style: solid;">
+      <div class="panel-heading">
+        <h3 class="panel-title" style="padding-left:10px;">{{userDetail.name}}</h3>
+      </div>
+      <div class="panel-body">
+        <div class="row">        
+    
+          <div class=" col-md-9 col-lg-9 "> 
+            <table class="table table-user-information">
+              <tbody>
+                <tr>
+                  <td>Department</td>
+                  <td>{{userDetail.dep}}</td>
+                </tr>
+                <tr>
+                  <td>Date of Birth</td>
+                  <td>{{userDetail.dob}}</td>
+                </tr>
+            
+                       <tr>
+                  <td>Gender</td>
+                  <td>{{userDetail.gender}}</td>
+                </tr>
+                  <tr>
+                  <td>Home Address</td>
+                  <td>{{address.Area}},{{address.PO}},{{address.PS}}</td>
+                </tr>
+  
+              <tr>
+              <td>District</td>
+              <td>{{address.Dist}}</td>
+            </tr>
+            <tr>
+              <td>Statle</td>
+              <td>{{address.State}}</td>
+            </tr>
+            <tr>
+              <td>PIN</td>
+              <td>{{address.PIN}}</td>
+            </tr>
+                <tr>
+                  <td>Email</td>
+                  <td>{{userDetail.email}}</td>
+                </tr>
+                <tr>
+                  <td>Phone Number</td>
+                  <td>{{userDetail.Phone}}
+                  </td>
+                     
+                </tr>
+               
+              </tbody>
+            </table>
+            <div style="padding: 20px;">
+            <a routerLink="/login" class="btn btn-primary">Logout</a>
+          </div>
+          </div>
+        </div>
+      </div>
+           
+      
+    </div>
+  </div>
+  
