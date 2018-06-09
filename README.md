@@ -1,4 +1,4 @@
-# NEWPOC
+# Angular 2+ POC
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
@@ -6,9 +6,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+OR
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve --open` to run the project and open in browser `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## MOCK JSON DATA
+
+I heve created one JSON file inside `assets` folder and called it from service using `HTTP` request. Here i have provided three users bydefault. You can add more user in that json file once you have downloaded repo.
 
 ## Build
 
@@ -22,6 +26,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
