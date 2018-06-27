@@ -12,9 +12,9 @@ import { forEach } from '@angular/router/src/utils/collection';
 })
 export class LoginComponent implements OnInit {
 
-  loginForm: FormGroup;
-  flag: boolean;
-  login_res: boolean;
+  private loginForm: FormGroup;
+  private flag: boolean;
+  private login_res: boolean;
 
   constructor(private fb: FormBuilder, private loginService: LoginService, private router: Router) {
     this.createForm();
@@ -30,6 +30,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
      this.flag = false;
      this.login_res = false;
+    
   }
 /**
  * TO DO : TO submit form
