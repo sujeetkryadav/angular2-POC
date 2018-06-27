@@ -22,8 +22,8 @@ class User {
 })
 export class ProfileComponent implements OnInit {
 
-  userDetail: User;
-  address: any;
+  private userDetail: User;
+  private address: any;
   constructor(private activeRouter: ActivatedRoute, private loginServiuce: LoginService, private router: Router) {
    }
 
