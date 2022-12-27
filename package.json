@@ -1,13 +1,13 @@
 {
   "name": "project",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "release": "git checkout master && git pull && auto-changelog -p && git add . && git commit -m 'new release' && git push && git checkout development"
+    "release": "git checkout master && git pull && auto-changelog -p && git add . && git commit -m 'new release' && git push && git checkout development && auto-changelog -p"
   },
   "private": true,
   "dependencies": {
