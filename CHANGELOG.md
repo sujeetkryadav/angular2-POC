@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 0.0.2 (2022-12-27)
+
+
+### Features
+
+* initial feature commit ([20f7434](https://github.com/sujeetkryadav/angular2-POC/commit/20f74344e9cd3f81adece918e49c8bc6d0b5a627))
+
 ### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
